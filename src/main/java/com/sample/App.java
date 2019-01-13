@@ -2,6 +2,8 @@ package com.sample;
 
 import com.sample.model.Student;
 
+import com.sample.model.Student;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +21,12 @@ public class App
 
         System.out.println(specimen);
 
+
+        Student student = new Student();
+
+        student.setId(1);
+        student.setFirstname("Alan");
+        student.setLastname("Reynolds");
 
         String models[] = new String[]{"Students", "Subjects", "Faculty"};
 
