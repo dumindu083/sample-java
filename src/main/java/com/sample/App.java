@@ -28,6 +28,14 @@ public class App
 
         List<Student> students = new ArrayList<>();
 
+        System.out.println(specimen);
+        System.out.println(specimen);
+        System.out.println(specimen);
+        System.out.println(specimen);
+        System.out.println(specimen);
+        System.out.println(specimen);
+
+
 
 
     }
