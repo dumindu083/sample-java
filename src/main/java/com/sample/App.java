@@ -22,11 +22,11 @@ public class App
         System.out.println(specimen);
 
 
-        Student student = new Student();
+        Student studentOne = new Student();
 
-        student.setId(1);
-        student.setFirstname("Alan");
-        student.setLastname("Reynolds");
+        studentOne.setId(1);
+        studentOne.setFirstname("Alan");
+        studentOne.setLastname("Reynolds");
 
         String models[] = new String[]{"Students", "Subjects", "Faculty"};
 
@@ -42,6 +42,9 @@ public class App
         System.out.println(specimen);
         System.out.println(specimen);
         System.out.println(specimen);
+
+        students.add(studentOne);
+
 
 
 
