@@ -1,8 +1,7 @@
 package com.sample;
 
 import com.sample.model.Student;
-
-import com.sample.model.Student;
+import com.sample.model.Subject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,6 +46,9 @@ public class App
 
 
 
+        Subject subject = new Subject();
+
+        subject.setDescription("A Sample description");
 
 
     }
