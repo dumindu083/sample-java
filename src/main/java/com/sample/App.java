@@ -15,5 +15,12 @@ public class App
         System.out.println(specimen);
 
 
+        String models[] = new String[]{"Students", "Subjects", "Faculty"};
+
+        for (String model : models) {
+            System.out.println(model);
+        }
+
+
     }
 }
