@@ -1,5 +1,10 @@
 package com.sample;
 
+import com.sample.model.Student;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Hello world!
  *
@@ -20,6 +25,9 @@ public class App
         for (String model : models) {
             System.out.println(model);
         }
+
+        List<Student> students = new ArrayList<>();
+
 
 
     }
